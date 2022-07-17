@@ -1,0 +1,185 @@
+#title{
+    background-color: #ff4c68;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 25%;
+}
+
+.parent-image{
+    position: relative;
+    
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ffc2cb;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    padding: 0 0 7% 0 ;
+    text-align: center;
+    background-color: #ffc2cb;
+    color: white;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px;
+}
+
+.feature-list{
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 2rem 0 2rem;
+}
+
+.fa-solid{
+    color: #ffc2cb;
+    margin-bottom: 2rem;
+}
+
+.fa-solid:hover{
+    color: #ff4c68
+}
+
+.fa-brands{
+    color: #ffc2cb;
+}
+
+.fa-brands:hover{
+    color: #ff4c68
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h3{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.btn-primary{
+    background-color: #ffc2cb;
+    border-color: #ffc2cb;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #ffc2cb;
+    border-color: #ffc2cb;
+}
+
+.btn-outline-primary{
+    border-color: #ffc2cb;
+    color: #ffc2cb;
+}
+
+.btn-outline-primary:hover{
+    background-color: #ffc2cb;
+    color: #fff;
+    border-color: #ffc2cb;
+}
+
+.premium{
+    background-color: #ffc2cb;
+}
+.premium-header{
+    border-color: #ffc2cb;
+}
+
+.list-group{
+    padding: 5%;
+}
+
+.footer-social{
+    padding: 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: Montes;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+@media (max-width: 1028px) {
+    .title-image{
+        transform: rotate(0);
+        width: 60%;
+        position: static;
+    }
+    
+    .parent-image{
+        position: relative;
+        
+    }
+
+    .title{
+        text-align: center;
+    }
+}
